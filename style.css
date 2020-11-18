@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.slider-bar {
+    margin-top: 40px;
+}
+
+.menu-name {
+    margin: 5px auto;
+    border: 1px solid #c5c5c5;
+    width: 500px;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    cursor: pointer;
+    padding: 11px 15px;
+    font-family: sans-serif;
+    color: #454545;
+}
+
+.menu-content {
+    transition: all .5s ease;
+    width: 450px;
+    margin: auto;
+    line-height: 1.2rem;
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    transition: all .5s ease;
+    height: 0;
+    overflow: hidden;
+}
+
+.active{
+    color: white;
+    background: #007fff;
+    border: 1px solid #003eff;
+
+}
